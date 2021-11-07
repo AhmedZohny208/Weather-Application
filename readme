@@ -1,0 +1,22 @@
+password: tota2071997
+
+https://www.weatherapi.com/my/
+
+Base URL: 
+http://api.weatherapi.com/v1
+
+key
+bdc21864b12b418db3f124105212609
+
+example
+
+
+
+So to get current weather for London: JSON: http://api.weatherapi.com/v1/current.json?key=<YOUR_API_KEY>&q=London
+
+XML: http://api.weatherapi.com/v1/current.xml?key=<YOUR_API_KEY>&q=London
+To get 7 day weather for US Zipcode 07112: JSON: http://api.weatherapi.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7
+
+XML: http://api.weatherapi.com/v1/forecast.xml?key=<YOUR_API_KEY>&q=07112&days=7
+Search for cities starting with Lond: JSON: http://api.weatherapi.com/v1/search.json?key=<YOUR_API_KEY>&q=lond
+XML: http://api.weatherapi.com/v1/search.xml?key=<YOUR_API_KEY>&q=lond

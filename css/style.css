@@ -1,0 +1,265 @@
+body {
+ color: #bfc1c8;
+ font-family: "Roboto", "Open Sans", sans-serif;
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 1.5;
+ background: #1e202b;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 700;
+ margin: 0 0 20px;
+ line-height: normal;
+}
+.clr {
+ clear: both;
+}
+
+/* Start Navbar Section */
+nav {
+ background-color: #1e202b !important;
+}
+
+nav .brand {
+ display: flex;
+ text-decoration: none;
+ color: #009ad8;
+}
+
+nav img {
+ margin-right: 10px;
+}
+
+nav .site-title {
+ margin-bottom: 5px;
+ font-size: 16px;
+ font-size: 1.1428571429em;
+ color: white;
+}
+
+nav .site-description {
+ font-size: 0.7142857143em;
+ display: block;
+ color: #bfc1c8;
+}
+
+nav .nav-item a {
+ color: #fff !important;
+ padding: 5px 25px !important;
+ border: 2px solid transparent;
+ border-radius: 30px;
+ font-weight: 400;
+}
+
+nav .nav-item a.active {
+ color: #009ad8 !important;
+ border: 2px solid #009ad8;
+ transition: 0.3s ease;
+}
+
+nav .nav-item a:hover {
+ color: #009ad8 !important;
+ border: 2px solid #009ad8;
+}
+
+@media only screen and (max-width: 991px) {
+ .navbar {
+  padding: 30px 0 !important;
+ }
+ .navbar-dark .navbar-toggler {
+  color: #009ad8;
+  border-color: rgba(0,154,216,0.1);
+ }
+ .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+ }
+ .navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,154,216,0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+ .navbar-collapse {
+  margin-top: 20px;
+ }
+ .navbar-nav li {
+  margin-bottom: 10px;
+  margin-left: 0 !important;
+ }
+}
+/* End Navbar Section */
+
+/* Start Find Location Section */
+.hero {
+ background-image: url(../images/hero-img.png);
+ background-size: cover;
+ padding: 70px 0;
+}
+
+.hero .find-location {
+ margin-bottom: 140px;
+ position: relative;
+}
+
+.find-location input[type="text"],
+.site-footer .subscribe-form input[type="text"] {
+ width: 100%;
+ padding: 20px 50px 20px 20px;
+ background: #1e202b;
+ color: white;
+ outline: none;
+ border: none;
+ border-radius: 30px;
+}
+
+.find-location input[type="button"], .subscribe-form input[type="submit"] {
+ position: absolute;
+ top: 5px;
+ right: 5px;
+ bottom: 5px;
+ padding: 0 40px;
+ border: none;
+ background: #009ad8;
+ border-radius: 30px;
+ color: white;
+}
+/* End Find Location Section */
+
+/* Start Forecast table Section */
+.forecast-table .forecast-container {
+ border-radius: 10px !important;
+ margin-top: -150px;
+ margin-bottom: 50px;
+ overflow: hidden;
+}
+
+.forecast-table .forecast-container .forecast-header {
+ background: rgba(0, 0, 0, 0.1);
+ padding: 10px;
+ text-align: center;
+ font-weight: 400;
+}
+
+.forecast-container .forecast.today .forecast-header .day {
+ float: left;
+}
+.forecast-container .forecast.today .forecast-header .date {
+ float: right;
+}
+
+.forecast-table .forecast .forecast-content {
+ text-align: center;
+ padding: 50px 20px 10px;
+}
+
+.forecast-table .forecast.today .forecast-content {
+ text-align: left;
+}
+
+.forecast-table .forecast.today .forecast-content {
+ padding: 30px 20px;
+}
+
+.forecast-table .forecast.today .location {
+ text-align: left;
+ font-size: 1.2857142857em;
+ font-weight: 400;
+}
+
+.forecast-table .forecast .forecast-content .degree {
+ font-size: 1.7142857143em;
+ color: white;
+ font-weight: 700;
+}
+
+.forecast-table .forecast.today .forecast-content .degree {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.forecast-table .forecast .forecast-content .degree .num {
+ font-size: 4.5rem;
+ margin-right: 30px;
+}
+
+.forecast-table .forecast .forecast-icon {
+ margin-bottom: 20px;
+ height: 50px;
+}
+
+.custom {
+ color: #009ad8;
+ margin: 20px 0;
+}
+
+.forecast-table .forecast.today span {
+ margin-right: 20px;
+}
+
+.forecast-table .forecast.today span img {
+ margin-right: 5px;
+ margin-bottom: 2px;
+}
+
+.forecast-table .col-md-4:nth-child(even) {
+ background-color: #262936;
+}
+.forecast-table .col-md-4:nth-child(odd) {
+ background-color: #323544;
+}
+
+.forecast-container .forecast .forecast-content small {
+ font-size: 1.1428571429em;
+}
+
+@media only screen and (max-width: 766px) {
+ .forecast-table .col-md-4 {
+  margin-bottom: 20px !important;
+  border-radius: 10px;
+ }
+}
+/* End Forecast table Section */
+
+/* Start Footer Section */
+.site-footer {
+ background: #262936;
+ padding: 50px 0;
+}
+
+.subscribe-form {
+ margin-bottom: 30px;
+ position: relative;
+}
+
+.site-footer .social-links {
+ margin-bottom: 30px;
+}
+
+.site-footer .social-links a {
+ text-decoration: none;
+ background: #1e202b;
+ display: inline-block;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ color: #009ad8;
+ font-size: 1.4285714286em;
+ line-height: 2;
+ text-align: center;
+ cursor: pointer;
+ transition: 0.3s ease;
+}
+
+.site-footer .social-links a:hover {
+ color: white;
+ background: rgb(0, 154, 216);
+}
+
+footer .colophon {
+ margin-bottom: 5px;
+}
+/* End Footer Section */
+
+@media only screen and (max-width: 600px) {
+ .container {
+  width: 90%;
+ }
+}
